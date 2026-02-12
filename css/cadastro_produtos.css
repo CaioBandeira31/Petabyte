@@ -1,0 +1,95 @@
+/* Pagina de cadastro de produto */
+
+/* box contendo o menu lateral e o formulario de cadastro do produto */
+#dashboard{
+  display: flex;
+}
+/* parametros do formulario de cadastro */
+#formCadProd{
+  background-color: #333;
+  font-size: 20px;
+  color: white;
+  height: 400px;
+  width: 800px;
+  margin-top: 20px;
+  padding: 0px 10px 0px 10px;
+  align-content: center;
+  border-radius: 5px;
+  
+}
+
+/* os inputs do formulario */
+.inputCadProd{
+  width: 100%;
+  margin-bottom: 20px;
+  height: 30px;
+  padding-left: 10px;
+}#imgCadProd{
+  margin-left: -10px;
+}
+
+/* margin do select (apenas para ajeitar o layout) */
+#categoriaProd{
+  margin-bottom: 20px;
+}
+
+/* Botao para cadastrar (Mesmo modelo dos botoes de remover */
+#botaoCadProd{
+  background-color: #333;
+  color: #fff;
+  width: 80px;
+  height: 30px;
+  margin-right: 30px;
+}#botaoCadProd:hover{
+  cursor: pointer;
+  transform: scale(1.01);
+}
+
+/* caixa do botao voltar */
+#divBotaoVoltar{
+  /* border: solid 1px red; */
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+
+/* botar de voltar ao inicio */
+#voltarPagina{
+  display: flex;
+  border: solid 1px white;
+  border-radius: 25px 10px 10px 25px;
+  /* background-color: #333; */
+  height: 30px;
+  width: 290px;
+  text-align: center;
+}#voltarPagina:hover{
+  transform: scale(1.01);
+}
+#voltarPaginaEsc{
+  margin-left: -25px;
+  font-size: 25px;
+  /* border: solid 1px red; */
+  height: auto;
+  width: auto;
+}.fa-circle-left{
+  font-size: 30px;
+  margin-top: -2px;
+  margin-left: -4px;
+}
+
+
+/* estilização da box menor */
+#indice1{
+  background-color:#333;
+  color: white;
+  font-size: 15px;
+  margin: 20px 20px 0px 30px;
+  padding-top: 20px;
+  /* border:solid 2px red; */
+  height: 400px;
+  width: 15%;
+  border-radius: 5px;
+  padding: 5px;
+}
+

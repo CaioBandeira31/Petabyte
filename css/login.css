@@ -1,0 +1,144 @@
+/* PAgina de Login e Cadastro */
+
+/* Box da pagina*/
+#mainLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 910px;
+    /* border: solid 1px red; */
+  }
+  
+   /* icone interno email*/
+  i{
+    position: absolute;
+    color: black;
+    transform: translate(1800%, -145%);
+  }
+
+  /* botao para ir par ao dashboard */
+  #botaoDash{
+    align-self: flex-end;
+    text-align: end;
+  }
+  
+  /* Ajustes na box de login e cadastro*/
+   #containerLogin{
+    margin-top: -70px ;
+    margin-left: 20px;
+    border:solid 1px rgb(82, 81, 81);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 570px;
+    font-family: "Poppins",sans-serif;
+   }#formLogin{
+    text-align: center;
+   }
+  
+   #containerRegistro{
+    margin-top: 30px;
+    margin-right: 20px;
+    border:solid 1px rgb(82, 81, 81);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 670px;
+    font-family: "Poppins",sans-serif;
+   }#formCadastro{
+    text-align: center;
+   }
+  
+  
+   /*altura / largura DOs inputs da PAGINA (LOGIN REGISTRO)*/
+  .inputLoginCad{
+    border-radius: 15px;
+    outline: none;
+    width: 100%;
+    height: 30px;
+    text-align: left;
+    margin-top: 10px;
+    padding: 15px;
+   }
+  
+  /* titulo  da box*/
+   .h1LoginCad{
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 5px;
+    color: white; 
+  }
+  
+  /* paragrafo*/
+  p{
+    color: white;
+    margin-bottom: 50px;
+  }
+  
+  /*BOTOES*/
+  .botaoLogCad{
+    color: white;
+    background-color: #0bb3f5;
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 15px;
+  }
+  .botaoLogCad:hover{
+    background-color: blue;
+    cursor: pointer;
+  }
+  
+  #botaoRegistro{
+    margin-top: 20px;
+  }
+   
+  
+   /* ajustes senha*/
+   .password{
+    border-radius: 15px;
+    outline: none;
+   }
+  
+   /* link esquceceu senha*/
+   .box-check{
+    margin-top: 10px;
+    display: flex;
+    justify-content: right;
+   }
+   .box-check .word{
+    text-decoration: none;
+    color: #0bb3f5;
+   }
+  
+   .word:hover{
+    text-decoration: underline;
+    color: blue;
+   }
+  
+  
+  
+  /* icone inerno senha*/
+  .password i{
+    position: absolute;
+    color: black;
+    transform: translate(-250%, 50%);
+    
+  }
+  
+  
+  /*config link cadastro*/
+  .cadastro{
+    margin-top: 10px;
+    text-align: center;
+  }
+  .cadastro a{
+    text-decoration: none;
+    color: #0bb3f5;
+  }
+   .cadastro a:hover{
+    text-decoration: underline;
+    color: blue;
+   }

@@ -1,0 +1,188 @@
+/* CARRINHO DE COMPRAS */
+#mainCarrinho{
+  display: flex;
+  /* border: solid 1px red; */
+  width: 100%;
+  min-width: 1160px;
+  height: 1030px;
+}
+
+/* caixa dos produtos do carrinho */
+#cxProdutosCarrinho{
+  border: solid 1px white;
+  background-color: #222;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 70%;
+  height: 500px;
+  /* display: flex; */
+  align-self: center;
+  flex-wrap: wrap;
+  margin-top: -200px;
+}#tituloCarrinho{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+  
+}
+/* produto/quantidade/remover/preco */
+.secEscritaCarrinho{
+  display: flex;
+  justify-content: space-around;
+  /* border: solid 1px red; */
+  height: 30px;
+}#col1Carrinho{
+  margin-left: -130px;
+  margin-right: 150px;
+}
+#itemCarrinho{
+  display: flex;
+  /* border: solid 1px green; */
+  justify-content: space-between;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+/* miniatura do produto */
+#imgCarrinho{
+  /* border: solid 1px red; */
+  width: 70px;
+  height: 70px;
+}
+/* informação do produto no carrinho */
+#escritaProdCarrinho{
+  /* border: solid 1px gold; */
+  width: 400px;
+  height: 70px;
+  margin-left: -300px;
+  margin-right: -300px;
+}#descProdutoCarrinho{
+  margin-top: -25px;
+  /* border: solid 1px red; */
+  font-size: 10px;
+}
+/* QUANTIA DE PRODUTO */
+#qntCarrinho{
+  border: solid 1px white;
+  border-radius: 5px;
+  width: 50px;
+  background: none;
+  color: white;
+  text-align: center;
+  margin-right: -0px;
+}
+
+
+/* Botao de remover produot do carrinho */
+.fa-solid{
+  color: white;
+  margin-right: 30px  ;
+}
+/* preco de cada produto do carrinho */
+#precProdCarrinho{
+  /* border: solid 1px red; */
+  margin-right: 130px;
+  margin-left: -50px;
+}
+
+
+/* caixa do resumo do pedido */
+#cxResumoPedido{
+  border: solid 1px white;
+  width: 30%;
+  height: 400px;
+  align-self: center;
+  margin-top: -300px;
+  background-color: #222;
+
+}
+
+/* escrita topo da caixa */
+#escritaTopoResum{
+  text-align: center;
+  margin-top: 5px;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+/* caixa com os elemtentos do Subtotal */
+#cxSubTotal{
+ /* border: solid 1px red; */
+ display: flex;
+ justify-content: space-between;
+ padding-left: 100px;
+ padding-right: 100px;
+ height: 25px;
+ width: 100%;
+}
+/* escrita subtotal */
+#subtotal{
+  font-size: 20px;
+}
+/* valor subtotal */
+#subtotalValor{
+  font-size: 20px;
+}
+
+/* caixa com os elementos do frete */
+#cxFrete{
+  /* border: solid 1px red; */
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 25px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+/* escrita frete */
+#frete{
+ font-size: 20px;
+}
+/* valor do frete */
+#freteValor{
+  font-size: 20px;
+}
+
+/* caixa total e valor total */
+#cxTotal{
+  /* border: solid 1px red; */
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 50px;
+  margin-top: 30px;
+  width: 100%;
+}
+/*escrita total  */
+#escritaTotal{
+  font-size: 35px;
+}
+/* total valor */
+#totalValor{
+  font-size: 35px;
+}
+/* botao continuar */
+#botContinuar{
+  /* border: solid 1px gold; */
+
+  height: 50px;
+  width: 120px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: rgb(59, 58, 58);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-self: center;
+}#botContinuar:hover{
+  transform: scale(1.02);
+  
+}
+
+/* escrita termos */
+#escritaTermos{
+ justify-self: center;
+}

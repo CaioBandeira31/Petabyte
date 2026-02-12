@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Novo Produto</title>
+</head>
+<body>
+    <div>
+        <div id="divBotaoVoltar">
+            <div id="voltarPagina">
+                <span class="fa-solid fa-circle-left"></span>
+                <a href="index.html" id="voltarPaginaEsc">Voltar a Pagina Inicial</a>
+            </div>
+        </div>
+    </div>
+    <main id="dashboard">
+        
+        <div id="indice1">
+            <h2 class="h2Dashboard">Alteração</h2>
+            <br>
+            <a href="dashboard.html" class="indiceDashboard">Meus Produtos</a>
+            <br>
+            <a href="dashboard.html" class="indiceDashboard">Novo produto</a>
+            <br>
+            <hr>
+            <br>
+           <h2 class="h2Dashboard">Relatórios</h2>
+           <br>
+            <a href="dashboard.html" class="indiceDashboard">Relatórios 1</a>
+            <br>
+            <a href="dashboard.html" class="indiceDashboard">Relatórios 2</a>
+            <br>
+            <a href="dashboard.html" class="indiceDashboard">Relatórios 3</a>
+        </div>
+    
+        <form action="" id="formCadProd">
+            
+            <label for="nomeProd">Nome</label><br>
+            <input type="text" placeholder="Ex: Processador Ryzen 5 5800G" id="nomeProd" class="inputCadProd" name="nomeProd">
+
+            <label for="descProd">Descrição</label><br>
+            <input type="text" placeholder="Ex: Processador AMD Ryzen 5 8500G Box ..." class="inputCadProd" name="descProd">
+            
+            <label for="">Preço</label><br>
+            <input type="number" placeholder="Ex: 999" class="inputCadProd" name="precoProd">
+
+            <label for="categoriaProd">Categoria</label><br>
+            <select name="" id="categoriaProd" name="categProd">
+                <option value="1">Processador</option>
+                <option value="2">Placa de Video</option>
+                <option value="3">Placa-Mãe</option>
+                <option value="4">Periférico</option>
+            </select><br id="Temp">
+
+            <label for="imgCadProd">Faça upload da imagem ou imagens</label><br>
+            <input type="file" name="imgProd" id="imgCadProd" class="inputCadProd">
+
+            <button type="submit" id="botaoCadProd">Cadastrar</button>
+            
+        </form>  
+    </main>
+</body>
+</html>

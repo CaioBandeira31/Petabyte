@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+    <link rel="stylesheet" href="style.css">
+    <title>login</title>
+</head>
+<body>
+    
+    <main id="mainLogin">
+        <div id="containerLogin">
+            <form id="formLogin" action="login_cadastro.html" method="get">
+                <h1 class="h1LoginCad">Acesse sua Conta</h1>
+                <p>Bem vindo de volta! Faca login para continuar </p>
+                
+                <input class="inputLoginCad" type="email" placeholder="Email">
+                <i class="fa-solid fa-user"></i>
+
+                <input class="inputLoginCad" type="password" placeholder="Senha">
+                <i class="fa-solid fa-lock"></i>
+
+                <button type="submit" class="botaoLogCad" id="botaoLogin">Entrar</button>
+                <div class=" box-check">  
+                    <a href="login_cadastro.html#" id="">Esqueceu a senha?</a>
+                </div>
+            </form>
+        </div>
+        <div id="containerRegistro">
+            <form id="formCadastro" action="https://petabyteproject.pages.dev/get">
+                <h1 class="h1LoginCad">Registre-Se</h1>
+                <p>Preencha os campos abaixo para se registrar.</p>
+                
+                <input type="text" class="inputLoginCad" id="inputCad" name="nome_completo" placeholder="Nome Completo"><br>
+                <input type="text" class="inputLoginCad" id="inputCad" placeholder="CPF"><br>
+                <input type="text" class="inputLoginCad" id="inputCad" name="endereco" placeholder="Endereço"><br>
+                <input type="tel" class="inputLoginCad" id="inputCad"  name="telefone" placeholder="Telefone"><br>
+                <input type="email" class="inputLoginCad" id="inputCad" name="emailUser" placeholder="Email"><br>
+                <input type="password" class="inputLoginCad" id="inputCad" name="senhaUser" placeholder="Senha"><br>
+                
+                <select class="inputLoginCad" id="inputCad" name="genero">
+                    <option value="" disabled hidden selected>Genero</option>    
+                    <option value="1">Masculino</option>
+                    <option value="2">Feminino</option>
+                    <option value="3">Outro</option>
+                </select><br>
+                
+                    
+                <button type="submit" class="botaoLogCad" id="botaoRegistro">Registrar-Se</button>
+            </form>
+        </div>
+    </main>
+     <a id="botaoDash" href="dashboard.html">Dashboard</a>
+</body>
+</html>

@@ -1,0 +1,1106 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/* Reset CSS ACIMA */
+
+/* Dimensao PAdrao */
+
+a{
+    text-decoration: none;
+    color: lightblue;
+    display: block;
+
+}
+h2,h1{
+  display: block;
+  color: white
+}
+
+body{
+     background-color: #111;
+     font-family:"Poppins", sans-serif;
+}
+
+form{
+  display: block;
+}
+
+footer{
+width: 100%;
+height: 300px;
+margin-top: 30px;
+/* border: solid 1px greenyellow; */
+}
+
+.caixaProduto{
+    display: flex;
+    align-items: flex-start;
+    background-color: #333;
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    justify-content: center;
+}
+
+/* ////////////////////////////////////// */
+
+/*Cabeçaclho*/
+header{
+    /* border: solid 2px white ;  */
+    background-color: #222;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* logo da loja */
+#userID{  
+  /* border: solid 2px pink; */
+  width: 100px;
+  height: 80px;
+  margin-left:30px ;
+}#userID:hover{
+  cursor: pointer;
+}
+/* barra de pesquisa */
+#pesquisa{
+  width: 300px;
+  height: 40px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: solid 1px white;
+  padding: 5px;
+}
+/* botao da barra de pesquisa */
+#botPesquisa{
+  height: 40px;
+  width: 150px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: solid 1px white;
+  margin-left: -3px;
+}#botPesquisa:hover{
+  background-color: gray;
+  cursor: pointer;
+}.fa-solid.fa-magnifying-glass{
+  color: black;
+  text-align: center;
+  width: 100%;
+
+}
+/* caixa contendo o carrinho e conta */
+#cxBotao{
+  margin-right: 20px;
+  /* border: solid 2px blue; */
+  width: 205px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  
+  
+}
+/* botao carrinho */
+#carrinho{
+  border: solid 2px white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100px;
+  margin-right: 5px;
+}#carrinho:hover{
+  transform: scale(1.02);
+}.fa-cart-shopping{
+  color: green;
+  
+}
+/* botao conta */
+#conta{
+  border: solid 2px white ;
+  height: 50px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}#conta:hover{
+  transform: scale(1.02);
+}
+
+
+/* //////////////////////////////////// */
+
+/* footer */
+/* box contendo logo,atendimento,tel e email */
+#box1Footer{
+  display: flex;
+  /* border: solid 2px teal; */
+  justify-content: center;
+  background-color: #222;
+  height: 150px;
+}
+/* box contendo redes sociais,pagamento  e newsleller */
+#box2Footer{
+  /* border: solid 1px red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #222;
+  height: 150px;
+}
+/* box horario de atendimento */
+#atendFooter{
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  /* border: solid 2px indigo; */
+  /* background-color: #222; */
+  width: 100%;
+  height: 80px;
+}
+
+/* box redes sociais*/
+#socialFooter{
+  color: #fff;
+  /* border: solid 2px crimson; */
+  font-size: 30px;
+  width: 25%;
+  height: 120px;
+  text-align: center;
+  align-self: center;
+  font-size: 25px;
+}
+/* box formas de pagamento */
+#pagamentoFooter{
+  color: #fff;
+  margin: 0 40px;
+  /* border: solid 2px orange; */
+  width: 500px;
+  height: 120px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}#divPagamento{
+  /* border: solid 1px red; */
+  text-align: center;
+}
+/* box email*/
+#emailFooter{
+  margin: 0 40px;
+  border: solid 2px lawngreen;
+  font-size: 15px; 
+  /* background-color: #444; */
+  width: 35%;
+  text-align: justify;
+}
+
+/* caixa ifnerio footer */
+#caixaInferiorFooter{
+  /* border: solid 1px red; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* box email newsletter*/
+#boxEmailFooter{
+  border: solid 2px aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  width: 250px;
+  height: 45px;
+}
+
+/* botao newsletters*/
+#botaoFooter{
+  border-radius: 0px 5px 5px 0px;
+  height: 30px;
+  transform: translate(860%, -100%);
+}
+/* texto newsletter*/
+#textoFooter{
+  color: #fff;
+  /* border: solid 2px burlywood; */
+  text-align: center;
+  height: 50px;
+  margin-top: 15px;
+  align-self:flex-end ;
+  font-size: 20px;
+}
+
+/* telefone*/
+#telFooter{
+  /* border: solid 2px goldenrod; */
+  margin: 0 25px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  width: 320px;
+  padding-top: 25px;
+  padding-left: 50px;
+  font-size: 15px;
+}
+/* sac*/
+#sacFooter{
+  /* border: solid 2px cornflowerblue; */
+  margin: 0 25px;
+  font-size: 20px;
+  display: flex;
+  width: 320px;
+  padding-top: 25px;
+  padding-left: 50px;
+  font-size: 15px;
+}
+/* horario atendimento*/
+#horaFooter{
+  /* border: solid 2px darkmagenta; */
+  flex-wrap: wrap;
+  color: #fff;
+  margin: 0 25px;
+  font-size: 20px;
+  display: flex;
+  width: 320px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 15px;
+
+}
+/* icone telefone*/
+#telCaixa{
+  /* border: solid 2px navajowhite; */
+  margin: none;
+  margin-left: -55px;
+  width: 30px;
+  height: 30px;
+}
+/* icone email*/
+#iconFooter3{
+  /* border: solid 2px hotpink; */
+  color: #fff;
+  height: 30px;
+  margin-right:5px;
+}
+/* tamanho icones sociais*/
+svg{
+  width: 50px;
+  height: 50px;
+  padding: 0 5px;
+
+/* box contendo os icones sociais*/
+}
+#iconSocial{
+  display: flex;
+  justify-content: center;
+  
+}
+
+/* icone instagram */
+ #botaoIcon1{
+  background-color: #fff;
+  color: #fff;
+  border: solid 2px greenyellow;
+  width: 50px;
+  height: 45px;
+
+/* icone facebook */
+}
+#botaoIcon2{
+  background-color: #fff;
+  color: #fff;
+  border: solid 2px lavender;
+  width: 50px;
+  height: 45px;
+}
+
+/* icone twitter */
+#botaoIcon3{
+  background-color: #fff;
+  color: #fff;
+  border: solid 2px indianred;
+  width: 50px;
+  height: 45px;
+}
+
+/* posicao dos icones */
+#botaoIcon1 svg{
+  transform: translateX(13%);
+ }
+#botaoIcon2 svg{
+  transform: translateY(-10%);
+ }
+ #botaoIcon3 svg{
+  transform: translateY(-10%);
+ }
+
+/* /////////////////////////////////// */
+/* Main Pagina Inicial */
+#meioInicio{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 1160px;
+    height: 1030px;
+    /* border: solid 1px goldenrod; */
+    justify-content: center;
+}
+/* caixa contendo cada categoria dentro */
+#categorias{
+  /* border: solid 1px red; */
+  background-color: #222;
+  margin-top: 15px;
+  max-width: 100%;
+  min-width: 1160px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 50px;
+  display: flex;
+}.caixaCategoria{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  border: solid 1px white;
+}.caixaCategoria:hover{
+  transform: scale(1.01);
+}
+
+/* preco produto */
+
+#bannerInicio{
+    width: 1160px;
+    min-width: auto;
+    height: 280px;
+    /* border: solid 1px red; */
+}#imgBanner{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 250px;
+  width: 1160px;
+}
+/* Caixa com as 2 divs de produtos */
+#conteinerProduto{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1160px;
+    height: 660px;
+    margin-bottom: 50px;
+    background-color: #222;
+    /* border: solid 1px red; */
+}
+
+/* divs dos produtos (4 produtos cada div) */
+#caixaProdutos1{
+    display: flex;
+    width: 1160px;
+    height: 300px;
+}#produto{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}.precoProd{
+    align-self: end;
+    margin-top: -10px;
+    cursor: default;
+}
+.imgProduto{
+  /* border: solid 1px red; */
+  height: 200px;
+  justify-self: center;
+}.imgProduto:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}.textoImg{
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+.textoProd{
+    width: 230px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+}
+
+#caixaProdutos2{
+    display: flex;
+    width: 1160px;
+    height: 300px;
+}
+
+/* ////////////////////////////////////////////////////////////////// */
+/* PAgina de Login e Cadastro */
+
+/* Box da pagina*/
+#mainLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 910px;
+    /* border: solid 1px red; */
+  }
+  
+   /* icone interno email*/
+  i{
+    position: absolute;
+    color: black;
+    transform: translate(1800%, -145%);
+  }
+
+  /* botao para ir par ao dashboard */
+  #botaoDash{
+    align-self: flex-end;
+    text-align: end;
+  }
+  
+  /* Ajustes na box de login e cadastro*/
+   #containerLogin{
+    margin-top: -70px ;
+    margin-left: 20px;
+    border:solid 1px rgb(82, 81, 81);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 570px;
+    font-family: "Poppins",sans-serif;
+   }#formLogin{
+    text-align: center;
+   }
+  
+   #containerRegistro{
+    margin-top: 30px;
+    margin-right: 20px;
+    border:solid 1px rgb(82, 81, 81);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 670px;
+    font-family: "Poppins",sans-serif;
+   }#formCadastro{
+    text-align: center;
+   }
+  
+  
+   /*altura / largura DOs inputs da PAGINA (LOGIN REGISTRO)*/
+  .inputLoginCad{
+    border-radius: 15px;
+    outline: none;
+    width: 100%;
+    height: 30px;
+    text-align: left;
+    margin-top: 10px;
+    padding: 15px;
+   }
+  
+  /* titulo  da box*/
+   .h1LoginCad{
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 5px;
+    color: white; 
+  }
+  
+  /* paragrafo*/
+  p{
+    color: white;
+    margin-bottom: 50px;
+  }
+  
+  /*BOTOES*/
+  .botaoLogCad{
+    color: white;
+    background-color: #0bb3f5;
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 15px;
+  }
+  .botaoLogCad:hover{
+    background-color: blue;
+    cursor: pointer;
+  }
+  
+  #botaoRegistro{
+    margin-top: 20px;
+  }
+   
+  
+   /* ajustes senha*/
+   .password{
+    border-radius: 15px;
+    outline: none;
+   }
+  
+   /* link esquceceu senha*/
+   .box-check{
+    margin-top: 10px;
+    display: flex;
+    justify-content: right;
+   }
+   .box-check .word{
+    text-decoration: none;
+    color: #0bb3f5;
+   }
+  
+   .word:hover{
+    text-decoration: underline;
+    color: blue;
+   }
+  
+  
+  
+  /* icone inerno senha*/
+  .password i{
+    position: absolute;
+    color: black;
+    transform: translate(-250%, 50%);
+    
+  }
+  
+  
+  /*config link cadastro*/
+  .cadastro{
+    margin-top: 10px;
+    text-align: center;
+  }
+  .cadastro a{
+    text-decoration: none;
+    color: #0bb3f5;
+  }
+   .cadastro a:hover{
+    text-decoration: underline;
+    color: blue;
+   }
+
+   /* ///////////////////////////// */
+ /* Dashboard */
+  
+/* tamanho da barra de pesquisa */
+#barrapesqDashboard{
+  width: 300px;
+  height: 30px;
+  padding: 5px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+/* caixa contendo o botao e barra de pesquisa da dashboard. */
+#caixaFormETitulo{
+  /* border: solid 1px red; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+/* botao de pesquisar */
+#pesquisaDashboard{
+  height: 30px;
+  width: 140px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: solid 1px white;
+}
+/* mudança da seta passando pelo botao */
+#pesquisaDashboard:hover{
+  cursor: pointer;
+  transform: scale(1.01);
+}
+
+/* box contendo o menu lateral e a parte de produtos cadastrados */
+#dashboard{
+  display: flex;
+}
+
+/* estilização da box menor */
+#indice1{
+  background-color:#333;
+  color: white;
+  font-size: 15px;
+  margin: 20px 20px 0px 30px;
+  padding-top: 20px;
+  /* border:solid 2px red; */
+  height: 400px;
+  width: 15%;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* alteraçao de cor barra lateral */
+#indice1, .indiceDashboard:hover{
+  color: #0bb3f5;
+}
+
+/* estilização da box maior */
+#indice2{
+  background-color: #333;
+  border: solid 2px #000;
+  border-radius: 10px;
+  padding-left: 10px;
+  color: #fff;
+  width: 80%;
+  height: 630px;
+  margin-top: 20px;
+}
+
+/* h2 da box menor */
+.h2Dashboard{
+  color: #fff;
+}
+
+/* tabela de produtos */
+#tabelaDashboard{
+  border-collapse: collapse;
+  /* border:solid 2px lawngreen; */
+  width: 100%;
+  height: 300px;
+}
+
+/* linhas da tabela */
+#tabelaDashboard td,
+#tabelaDashboard th{
+  border: none;
+  border-bottom: 1px solid #222; /* só linha inferior */
+  padding: 8px;
+}
+
+/* imagem da box de produtos */
+.imagemDashboard{
+  display: flex;
+  align-items: center;
+}
+
+/* botao de editar e remover */
+.botaoDashboard{
+  background-color: #333;
+  color: #fff;
+  width: 60px;
+  height: 30px;
+  margin-right: 30px;
+}.botaoDashboard:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/* caixa do botao voltar */
+#divBotaoVoltar{
+  /* border: solid 1px red; */
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+
+/* botar de voltar ao inicio */
+#voltarPagina{
+  display: flex;
+  border: solid 1px white;
+  border-radius: 25px 10px 10px 25px;
+  /* background-color: #333; */
+  height: 30px;
+  width: 290px;
+  text-align: center;
+}#voltarPagina:hover{
+  transform: scale(1.01);
+}
+#voltarPaginaEsc{
+  margin-left: -25px;
+  font-size: 25px;
+  /* border: solid 1px red; */
+  height: auto;
+  width: auto;
+}.fa-circle-left{
+  font-size: 30px;
+  margin-top: -2px;
+  margin-left: -4px;
+}
+
+/* ///////////////////////////////////////////////////// */
+/* CARRINHO DE COMPRAS */
+#mainCarrinho{
+  display: flex;
+  /* border: solid 1px red; */
+  width: 100%;
+  min-width: 1160px;
+  height: 1030px;
+}
+
+/* caixa dos produtos do carrinho */
+#cxProdutosCarrinho{
+  border: solid 1px white;
+  background-color: #222;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 70%;
+  height: 500px;
+  /* display: flex; */
+  align-self: center;
+  flex-wrap: wrap;
+  margin-top: -200px;
+}#tituloCarrinho{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+  
+}
+/* produto/quantidade/remover/preco */
+.secEscritaCarrinho{
+  display: flex;
+  justify-content: space-around;
+  /* border: solid 1px red; */
+  height: 30px;
+}#col1Carrinho{
+  margin-left: -130px;
+  margin-right: 150px;
+}
+#itemCarrinho{
+  display: flex;
+  /* border: solid 1px green; */
+  justify-content: space-between;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+/* miniatura do produto */
+#imgCarrinho{
+  /* border: solid 1px red; */
+  width: 70px;
+  height: 70px;
+}
+/* informação do produto no carrinho */
+#escritaProdCarrinho{
+  /* border: solid 1px gold; */
+  width: 400px;
+  height: 70px;
+  margin-left: -300px;
+  margin-right: -300px;
+}#descProdutoCarrinho{
+  margin-top: -25px;
+  /* border: solid 1px red; */
+  font-size: 10px;
+}
+/* QUANTIA DE PRODUTO */
+#qntCarrinho{
+  border: solid 1px white;
+  border-radius: 5px;
+  width: 50px;
+  background: none;
+  color: white;
+  text-align: center;
+  margin-right: -0px;
+}
+/* REMOÇÃO DAS SETAS DO INPUT NUMBER */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Botao de remover produot do carrinho */
+.fa-solid{
+  color: white;
+  margin-right: 30px  ;
+}
+/* preco de cada produto do carrinho */
+#precProdCarrinho{
+  /* border: solid 1px red; */
+  margin-right: 130px;
+  margin-left: -50px;
+}
+
+
+/* caixa do resumo do pedido */
+#cxResumoPedido{
+  border: solid 1px white;
+  width: 30%;
+  height: 400px;
+  align-self: center;
+  margin-top: -300px;
+  background-color: #222;
+
+}
+
+/* escrita topo da caixa */
+#escritaTopoResum{
+  text-align: center;
+  margin-top: 5px;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+/* caixa com os elemtentos do Subtotal */
+#cxSubTotal{
+ /* border: solid 1px red; */
+ display: flex;
+ justify-content: space-between;
+ padding-left: 100px;
+ padding-right: 100px;
+ height: 25px;
+ width: 100%;
+}
+/* escrita subtotal */
+#subtotal{
+  font-size: 20px;
+}
+/* valor subtotal */
+#subtotalValor{
+  font-size: 20px;
+}
+
+/* caixa com os elementos do frete */
+#cxFrete{
+  /* border: solid 1px red; */
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 25px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+/* escrita frete */
+#frete{
+ font-size: 20px;
+}
+/* valor do frete */
+#freteValor{
+  font-size: 20px;
+}
+
+/* caixa total e valor total */
+#cxTotal{
+  /* border: solid 1px red; */
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 50px;
+  margin-top: 30px;
+  width: 100%;
+}
+/*escrita total  */
+#escritaTotal{
+  font-size: 35px;
+}
+/* total valor */
+#totalValor{
+  font-size: 35px;
+}
+/* botao continuar */
+#botContinuar{
+  /* border: solid 1px gold; */
+
+  height: 50px;
+  width: 120px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: rgb(59, 58, 58);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-self: center;
+}#botContinuar:hover{
+  transform: scale(1.02);
+  
+}
+
+/* informacoes sobre cupom */
+#escritaCupom{
+ justify-self: center;
+}
+
+/* //////////////////////////////////////////// */
+/* Pagina de informação sobre o produto */
+#mainInfoProduto{
+  width: 100%;
+  height: 824px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: solid 1px gold; */
+}
+
+/* caixa contendo TUDO sobre o produto */
+#caixaInfoProduto{
+border: solid 1px white;
+background-color: #222;
+padding: 10px;
+width: 70%;
+height: 600px;
+display: flex;
+}
+/* Caixa das imagens do produto */
+#caixaImgInfoProduto{
+  /* border: solid 1px goldenrod; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 600px;
+  width: 50%;
+}
+/* Parametros das imagens do produto */
+#ImagemProdMaior{
+  border: solid 1px white;
+  width: 700px;
+  height: 400px;
+}.imgInfoProduto{
+  border: solid 1px white;
+  margin: -10px 10px 10px 10px;
+  width: 120px;
+  height: 100px;
+}
+/* caixa contendo a parte escrita sobre o produto */
+#caixaEscritaInfoProduto{
+  width: 50%;
+  /* border: solid 1px lightseagreen; */
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px 15px 15px 15px;
+}
+
+/* caixa com a descrição/cod e avaliacao */
+#caixaDescricaoInfoProduto{
+width: 100%;
+height: 150px;
+margin-top: 5px;
+display: flex;
+flex-wrap: wrap;
+/* border: solid 1px purple; */
+}
+
+/* descrição do produto */
+#descInfoProduto{
+color: white;
+/* border: solid 1px red; */
+width: 100%;
+margin-bottom: 10px;
+}
+/* Div com as entrelas de opiniao e a estrela em si */
+#opiniaoInfoProd{
+  /* border: solid 1px red; */
+  height: 20px;
+  margin-left: 10px;
+  width: auto;
+  
+}.fa-star.fa-sharp{
+color: white;
+margin: 0px;
+font-size: 15px;
+}
+/* parametros das letras dos <p> da pagina */
+.letraInfoProduto{
+  font-weight: lighter;
+}
+/* caixa com os valores do produto */
+#caixaValoresInfoProduto{
+/* border: solid 1px red; */
+justify-content: end;
+display: flex;
+margin-bottom: 20px;
+width: 100%;
+height: 60px;
+}
+/* parametros das escrita da pagina */
+.letraInfoProduto{
+  font-size: 15px;
+}
+/* id para editar o tamanho da fonte somente do VALOR do produto */
+#valorProdutoInfo{
+font-size: 30px;
+}
+/* caixa SÓMENTE COM OS VALORES */
+#cxValoresInfoProdEsc{
+  /* border: solid 1px red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  margin-right: 50px;
+  width: 180px;
+  height: 60px;
+}
+/* botao comprar da pagina info prod */
+#botComprarInfoProduto{
+  border: solid 1px white;
+  display: flex;
+  width: 180px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+}#botComprarInfoProduto:hover{
+  transform: scale(1.01);
+}
+/* Informacoes adicionais sobre o produto */
+#infoAdicionais{
+  /* border: solid 1px red; */
+  align-self: flex-end;
+}
+/* ////////////////////////////////// */
+/* Pagina de cadastro de produto */
+
+/* parametros do formulario de cadastro */
+#formCadProd{
+  background-color: #333;
+  font-size: 20px;
+  color: white;
+  height: 400px;
+  width: 800px;
+  margin-top: 20px;
+  padding: 0px 10px 0px 10px;
+  align-content: center;
+  border-radius: 5px;
+  
+}
+
+/* os inputs do formulario */
+.inputCadProd{
+  width: 100%;
+  margin-bottom: 20px;
+  height: 30px;
+  padding-left: 10px;
+}#imgCadProd{
+  margin-left: -10px;
+}
+
+/* margin do select (apenas para ajeitar o layout) */
+#categoriaProd{
+  margin-bottom: 20px;
+}
+
+/* Botao para cadastrar (Mesmo modelo dos botoes de remover */
+#botaoCadProd{
+  background-color: #333;
+  color: #fff;
+  width: 80px;
+  height: 30px;
+  margin-right: 30px;
+}#botaoCadProd:hover{
+  cursor: pointer;
+  transform: scale(1.01);
+}

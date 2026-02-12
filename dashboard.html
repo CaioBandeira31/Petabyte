@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dashboard</title>
+</head>
+<body>
+    <div>
+        <div id="divBotaoVoltar">
+            <div id="voltarPagina">
+                <span class="fa-solid fa-circle-left"></span>
+                <a href="index.html" id="voltarPaginaEsc">Voltar a Pagina Inicial</a>
+            </div>
+        </div>
+    </div>
+    <main id="dashboard">
+        
+        <div id="indice1">
+            <h2 class="h2Dashboard">Alteração</h2>
+            <br>
+            <a href="dashboard.html" class="indiceDashboard">Meus Produtos</a>
+            <br>
+            <a href="cadstro_produto.html">Novo produto</a>
+            <br>
+            <hr>
+            <br>
+           <h2 class="h2Dashboard">Relatórios</h2>
+           <br>
+            <a href="dashboard.html" class="indiceDashboard">Relatórios 1</a>
+            <br>
+            <a href="dashboard.html" class="indiceDashboard">Relatórios 2</a>
+            <br>
+            <a href="dashboard.html" class="indiceDashboard">Relatórios 3</a>
+        </div>
+        <div id="indice2">
+            <div id="caixaFormETitulo">
+                <h2>Produtos Cadastrados</h2>
+                <form action="dashboard.html" method="get" id="formPesquisaDash">
+                    <input id="barrapesqDashboard" type="text" placeholder="Pesquise aqui o produto desejado." > <button id="pesquisaDashboard">pesquisar</button>
+                </form>
+            </div>
+            <table id="tabelaDashboard" >
+                    <tr>
+                         <td>Produto</td>
+                         <td>Estoque</td>
+                         <td>Preço</td>
+                         <td>Editar</td>
+                    </tr>
+                    <tr>
+                        <td class="imagemDashboard"><figure><img src="img/produtos/Ryzen&#32;5&#32;sem&#32;fundo.png" alt=""width=65px height="50px"></figure>
+                            <figcaption>Processador AMD Ryzen 5 8500G</figcaption>
+                        </td>
+                        <td>4</td>
+                        <td>R$ 999,99</td>
+                        <td>
+                            <form action="dashboard.html">
+                                <button class="botaoDashboard">editar</button>
+                                <button class="botaoDashboard">remover</button>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="imagemDashboard"><figure><img src="img/produtos/Teclado-Mec-nico-Akko-3068b&#32;Sem&#32;fundo.png" alt=""width=65px height="50px"></figure>
+                        <figcaption>Teclado Gamer Mecânico Akko 3068B Plus Black</figcaption>
+                        </td>
+                        <td>4</td>
+                        <td>R$ 999,99</td>
+                        <td>
+                            <form action="dashboard.html">
+                                <button class="botaoDashboard" type="reset">editar</button>
+                                <button class="botaoDashboard" type="reset">remover</button>
+                            </form>
+                        </td>
+                </tr>
+                <tr id="descricaoprodDashboard">
+                    <td class="imagemDashboard"><figure><img src="img/produtos/b550&#32;sem&#32;fundo.png" alt=""width=65px height="50px"></figure>
+                        <figcaption>ASUS Placa-mãe TUF Gaming B850-PLUS WiFi AMD AM5 B850 ATX</figcaption>
+                    </td>
+                    <td>1</td>
+                    <td>R$ 999,99</td>
+                    <td>
+                        <form action="dashboard.html">
+                            <button class="botaoDashboard" type="reset">editar</button>
+                            <button class="botaoDashboard" type="reset">remover</button>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="imagemDashboard"><figure><img src="img/produtos/Asus&#32;x870.png" alt=""width=70px height="50px"></figure>
+                        <figcaption>Placa Mãe Asus PRIME B550M-A</figcaption>
+                    </td>
+                    <td>1</td>
+                    <td>R$ 999,99</td>
+                    <td>
+                        <form action="dashboard.html">
+                            <button class="botaoDashboard" type="reset">editar</button>
+                            <button class="botaoDashboard" type="reset">remover</button>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="imagemDashboard"><figure><img src="img/produtos/5060 preta.png" alt=""width=70px height="50px"></figure>
+                        <figcaption>Placa de Video MSI RTX 5060 Shadow 2X OC</figcaption>
+                    </td>
+                    <td>1</td>
+                    <td>R$ 999,99</td>
+                    <td>
+                        <form action="dashboard.html">
+                            <button class="botaoDashboard" type="reset">editar</button>
+                            <button class="botaoDashboard" type="reset">remover</button>
+                        </form>
+                    </td>
+                </tr>
+                 <tr>
+                    <td class="imagemDashboard"><figure><img src="img/produtos/rtx 3050.png" alt=""width=70px height="50px"></figure>
+                        <figcaption>Placa de Vídeo MSI NVIDIA Geforce - RTX 3050 6GB</figcaption>
+                    </td>
+                    <td>1</td>
+                    <td>R$ 999,99</td>
+                    <td>
+                        <form action="dashboard.html">
+                            <button class="botaoDashboard" type="reset">editar</button>
+                            <button class="botaoDashboard" type="reset">remover</button>
+                        </form>
+                    </td>
+                </tr>
+                 <tr>
+                    <td class="imagemDashboard"><figure><img src="img/produtos/superlight rosa.png" alt=""width=70px height="50px"></figure>
+                        <figcaption>Mouse Gamer Sem Fio Logitech G PRO X SUPERLIGHT</figcaption>
+                    </td>
+                    <td>1</td>
+                    <td>R$ 999,99</td>
+                    <td>
+                        <form action="dashboard.html">
+                            <button class="botaoDashboard" type="reset">editar</button>
+                            <button class="botaoDashboard" type="reset">remover</button>
+                        </form>
+                    </td>
+                </tr>
+                 <tr>
+                    <td class="imagemDashboard"><figure><img src="img/produtos/ryzen 7.png" alt=""width=70px height="50px"></figure>
+                        <figcaption>PROCESSADOR AMD RYZEN 7 5700X 3.4GHz (TURBO 4.6GHz) </figcaption>
+                    </td>
+                    <td>1</td>
+                    <td>R$ 999,99</td>
+                    <td>
+                        <form action="dashboard.html">
+                            <button class="botaoDashboard" type="reset">editar</button>
+                            <button class="botaoDashboard" type="reset">remover</button>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </div>   
+    </main>
+</body>
+</html>
